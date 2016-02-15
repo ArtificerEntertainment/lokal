@@ -4,5 +4,5 @@ const localDependencies = require.main.require(__dirname + '/../../../package.js
 
 const keys = Object.keys(localDependencies);
 keys.forEach(function(item, index) {
-  module.exports[item] = require.main.require(localDependencies[item]);
+  module.exports[item] = require.main.require(__dirname + '/../../../' + localDependencies[item]);
 });
