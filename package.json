@@ -1,34 +1,14 @@
 {
-  "name": "lokal",
-  "version": "1.0.1",
-  "description": "A sane way to handle local imports for npm and node.",
-  "main": "lib/index.js",
+  "comment": "This file is located here for use with the automated tests. The npm module is located in dev/lokal.",
   "scripts": {
     "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ArtificerEntertainment/lokal.git"
-  },
-  "keywords": [
-    "local",
-    "lokal",
-    "import",
-    "dependency",
-    "include"
-  ],
-  "author": "Artificer Entertainment",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ArtificerEntertainment/lokal/issues"
-  },
-  "homepage": "https://github.com/ArtificerEntertainment/lokal#readme",
-  "devDependencies": {
-    "mocha": "2.4.5"
   },
   "localDependencies": {
     "dependency1": "test/dependency1/",
     "dependency-2": "test/dependency2/dependency2.js",
     "dependency3": "test/dependency3/nested/index.js"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
   }
 }

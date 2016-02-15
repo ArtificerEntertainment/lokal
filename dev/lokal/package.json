@@ -1,0 +1,23 @@
+{
+  "name": "lokal",
+  "version": "1.0.2",
+  "description": "A sane way to handle local imports for npm and node.",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtificerEntertainment/lokal.git"
+  },
+  "keywords": [
+    "local",
+    "lokal",
+    "import",
+    "dependency",
+    "include"
+  ],
+  "author": "Artificer Entertainment",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArtificerEntertainment/lokal/issues"
+  },
+  "homepage": "https://github.com/ArtificerEntertainment/lokal#readme"
+}

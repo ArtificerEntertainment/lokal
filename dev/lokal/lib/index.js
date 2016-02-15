@@ -1,6 +1,6 @@
 'use strict';
 
-const localDependencies = require.main.require('package.json').localDependencies;
+const localDependencies = require.main.require(__dirname + '/../../../package.json').localDependencies;
 
 const keys = Object.keys(localDependencies);
 keys.forEach(function(item, index) {
