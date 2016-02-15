@@ -1,8 +1,8 @@
 {
   "name": "lokal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sane way to handle local imports for npm and node.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/ArtificerEntertainment/lokal#readme",
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "2.4.5"
   },
   "localDependencies": {
     "dependency1": "test/dependency1/",
