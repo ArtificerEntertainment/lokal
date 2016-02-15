@@ -1,6 +1,6 @@
 {
   "name": "lokal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A sane way to handle local imports for npm and node.",
   "main": "lib/index.js",
   "repository": {

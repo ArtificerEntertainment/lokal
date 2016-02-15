@@ -1,7 +1,7 @@
 # lokal
 A sane way to handle local imports for npm and node.
 ```js
-const myDependency = require('local').myDependency;
+const myDependency = require('lokal').myDependency;
 ```
 
 ## Motivation
@@ -33,9 +33,9 @@ Add the following to your `package.json` file. Note that all of the standard pat
 Import your local dependency like this:
 
 ```js
-const dependency1 = require('local').dependency1;
-const dependency2 = require('local')['dependency-2']; //for names with non-standard characters
-const dependency3 = require('local').dependency3;
+const dependency1 = require('lokal').dependency1;
+const dependency2 = require('lokal')['dependency-2']; //for names with non-standard characters
+const dependency3 = require('lokal').dependency3;
 ```
 
 Now when you move a file, the import path only needs to be updated in one place. Additionally, the name used to identify the file as a local dependency in `package.json` is not tied directly to the file path or file name. It can also be helpful to have a complete list of local dependencies in one location.
