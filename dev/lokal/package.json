@@ -1,6 +1,6 @@
 {
   "name": "lokal",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "A sane way to handle local imports for npm and node.",
   "main": "lib/index.js",
   "repository": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ArtificerEntertainment/lokal/issues"
   },
-  "homepage": "https://github.com/ArtificerEntertainment/lokal#readme"
+  "homepage": "https://github.com/ArtificerEntertainment/lokal#readme",
+  "dependencies": {
+    "nco": "1.0.1"
+  }
 }

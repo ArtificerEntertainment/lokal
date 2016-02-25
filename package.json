@@ -9,6 +9,7 @@
     "dependency3": "test/dependency3/nested/index.js"
   },
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "2.4.5",
+    "rewire": "2.5.1"
   }
 }
